@@ -3160,15 +3160,13 @@ article.cmt-blog-classic:hover {
 }
 
 .prod #part1 a {
-  background-image: url(../img/buttons/ic1.svg),
-    url(../img/buttons/ic1_a.svg.svg);
+  background-image: url(../img/buttons/ic1.svg), url(../img/buttons/ic1_a.svg);
 }
 .prod #part1 a:hover {
   background-image: url(../img/buttons/ic1_a.svg);
 }
 .prod #part2 a {
-  background-image: url(../img/buttons/ic2.svg),
-    url(../img/buttons/ic2_a.svg.svg);
+  background-image: url(../img/buttons/ic2.svg), url(../img/buttons/ic2_a.svg);
 }
 .prod #part2 a:hover {
   background-image: url(../img/buttons/ic2_a.svg);
