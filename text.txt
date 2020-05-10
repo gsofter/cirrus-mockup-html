@@ -102,3 +102,17 @@ Stefano Tan
 
 
 ############
+What Is Negative Air Pressure?
+
+If An Enclosed Area Has A Lower Air Pressure Than The Area Around It, Air Is Sucked Into The Area.
+
+How Can Air Pressure Your Staff from airborne Containments
+
+A well engineered negative pressure room with constant monitoring of air pressure, can contain air-bone contaminants within the room preventing air-bone contaminants including Covid-19, from drifting to other areas and contaminating humans & equipments.
+
+What Can Cirrus Consulting Do?
+We can help you engineer a room with constant pressure monitoring to assure proper safe
+
+What Do I Need To Setup Negative Pressure Environment
+1. Properly engineered exhaust fan with HEPA filter.
+2. Constant Negative Air-Pressure Monitoring
