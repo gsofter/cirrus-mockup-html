@@ -1,0 +1,104 @@
+#######
+p1
+Lack Of Detection & Isolation Wards
+
+During A Contagious Epidemic, A Regular <br/>
+Medical Facility Will Not Know If The Infection Is Contained
+
+• Compromised Working Environment.
+• Complex, Expensive & Time Consuming
+To Convert Spaces For Isolation Purposes.
+• Overworked And Understaffed In Medical Sector.
+• Time Spent On Manual Monitoring
+
+###########
+p2-1
+ME IoT Platform - CLINIC Scenario
+
+Ensuring Containment of Contaiminated Air.
+Help Conversions of Regular Space To Isolation Zone.
+
+Negative Presssure,  Temperature, Humidity
+Monitoring & Analysis
+Real-time Cloud Data Management & Analysis
+On-site Sensor Event Triggered Notifications
+SMS & Email Notifications
+Connects Wirelessly At 2.4ghz
+Colored LCD For Quick Room Status
+
+Portable & Light Weight
+Simple & Quick Installations
+
+
+##########
+p2-2
+ME IoT Platform - HOSTPITAL Scenario
+
+Ensuring Pressure is Monitored. Reassuance That 
+Contaminated Air Is Removed And Filtered By The Hospital Air Systems. Simple Visual Comparison Between The Zones WIth ME Devices.
+
+########
+p2-3
+
+ME IoT Platform - HOME Scenario
+
+
+########
+p3
+
+Specifications
+Monitors Air Pressure, Temperature & Humidity
+Real-time Cloud Data Management & Analysis
+On-site Sensor Event Triggered Notifications
+SMS & Email Notifications
+Connects Wirelessly At 2.4ghz
+Colored LCD for quick room status
+USB Powered With Lipo Battery Backed Up
+Portable & Light Weight
+Easy & Quick Installations
+
+Add-on(s) Hardwares
+Traffic Light System
+GPS
+IR Motion Detection
+IP65-67 Waterproof
+Personnel Movement Tracking System
+Ozone Monitoring Sensor
+
+#############
+p4
+ME IoT Platform = System Security & Access
+
+Scalable And Secure Data Management - Focus On The Information You Need On The Ground And In The Cloud.
+
+Real Time Analysis
+Cascade Messaging Of Sensor Events To The Right People
+Fully Configurable Event Notifications As Needed
+Access Rights For ME Users Only
+24hrs Monitoring
+Shared information Capabilities With Global Agencies
+
+
+
+#############
+p5
+
+ME IoT Platform - Various Scenario
+
+Simple Installation And System Implementation Provides Flexible Possibilities Based On Current Need. From A Single Home To A Large Hospital building, Emergency Temporary Shelters In Car Parks To Public Parks in Any City, State Or Country. Deploy In Planes Or Ships - Scale Within Hours Of Implementation
+
+
+############
+p6
+
+Ensuring Pressure Is Monitored To Maintain Separation of Contaminated<br/> Air With Simple Conversions Of Regular Spaces To Isolation Zones.
+
+JAPAN
+Mark Ishikawa
+Robert John
+
+SINGAPORE
+Stefano Tan
+
+
+############
