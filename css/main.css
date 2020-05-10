@@ -3156,6 +3156,7 @@ article.cmt-blog-classic:hover {
   display: block;
   width: 190px;
   height: 165px;
+  transition: 0.7s;
 }
 
 .prod #part1 a {
