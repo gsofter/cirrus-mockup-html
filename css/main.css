@@ -3160,38 +3160,40 @@ article.cmt-blog-classic:hover {
 }
 
 .prod #part1 a {
-  background-image: url(../img/buttons/ic1.svg);
+  background-image: url(../img/buttons/ic1.svg),
+    url(../img/buttons/ic1_a.svg.svg);
 }
 .prod #part1 a:hover {
   background-image: url(../img/buttons/ic1_a.svg);
 }
 .prod #part2 a {
-  background-image: url(../img/buttons/ic2.svg);
+  background-image: url(../img/buttons/ic2.svg),
+    url(../img/buttons/ic2_a.svg.svg);
 }
 .prod #part2 a:hover {
   background-image: url(../img/buttons/ic2_a.svg);
 }
 
 .prod #part3 a {
-  background-image: url(../img/buttons/ic3.svg);
+  background-image: url(../img/buttons/ic3.svg), url(../img/buttons/ic3_a.svg);
 }
 .prod #part3 a:hover {
   background-image: url(../img/buttons/ic3_a.svg);
 }
 .prod #part4 a {
-  background-image: url(../img/buttons/ic4.svg);
+  background-image: url(../img/buttons/ic4.svg), url(../img/buttons/ic4_a.svg);
 }
 .prod #part4 a:hover {
   background-image: url(../img/buttons/ic4_a.svg);
 }
 .prod #part5 a {
-  background-image: url(../img/buttons/ic5.svg);
+  background-image: url(../img/buttons/ic5.svg), url(../img/buttons/ic5_a.svg);
 }
 .prod #part5 a:hover {
   background-image: url(../img/buttons/ic5_a.svg);
 }
 .prod #part6 a {
-  background-image: url(../img/buttons/ic6.svg);
+  background-image: url(../img/buttons/ic6.svg), url(../img/buttons/ic6_a.svg);
 }
 .prod #part6 a:hover {
   background-image: url(../img/buttons/ic6_a.svg);
