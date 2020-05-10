@@ -3098,6 +3098,14 @@ article.cmt-blog-classic:hover {
   text-align: center;
 }
 
+/**/
+body:after {
+  content: url("../img/contents/p1.svg") url("../img/contents/p2-1.svg")
+    url("../img/contents/p2-2.svg") url("../img/contents/p2-3.svg")
+    url("../img/contents/p3.svg") url("../img/contents/p4.svg")
+    url("../img/contents/p5.svg") url("../img/contents/p6.svg");
+  display: none;
+}
 /* BEGIN PROD STYLES */
 .prod {
   position: relative;
