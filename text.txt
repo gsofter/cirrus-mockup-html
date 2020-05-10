@@ -1,0 +1,57 @@
+###########
+p2-1
+ME IoT Platform - CLINIC Scenario
+
+Ensuring Containment of Contaiminated Air.
+Help Conversions of Regular Space To Isolation Zone.
+
+Negative Presssure,  Temperature, Humidity
+Monitoring & Analysis
+Real-time Cloud Data Management & Analysis
+On-site Sensor Event Triggered Notifications
+SMS & Email Notifications
+Connects Wirelessly At 2.4ghz
+Colored LCD For Quick Room Status
+
+Portable & Light Weight
+Simple & Quick Installations
+
+
+##########
+p2-2
+ME IoT Platform - HOSTPITAL Scenario
+
+Ensuring Pressure is Monitored. Reassuance That 
+Contaminated Air Is Removed And Filtered By The Hospital Air Systems. Simple Visual Comparison Between The Zones WIth ME Devices.
+
+########
+p2-3
+
+ME IoT Platform - HOME Scenario
+
+
+########
+p3
+
+Specifications
+Monitors Air Pressure, Temperature & Humidity
+Real-time Cloud Data Management & Analysis
+On-site Sensor Event Triggered Notifications
+SMS & Email Notifications
+Connects Wirelessly At 2.4ghz
+Colored LCD for quick room status
+USB Powered With Lipo Battery Backed Up
+Portable & Light Weight
+Easy & Quick Installations
+
+Add-on(s) Hardwares
+Traffic Light System
+GPS
+IR Motion Detection
+IP65-67 Waterproof
+Personnel Movement Tracking System
+Ozone Monitoring Sensor
+
+#############
+p4
+ME IoT Platform = System Security & Access

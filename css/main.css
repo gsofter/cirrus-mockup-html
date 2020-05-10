@@ -3052,10 +3052,6 @@ article.cmt-blog-classic:hover {
   width: 100%;
 }
 
-.cmt-row.about-section {
-  background: #00acb4;
-}
-
 .title {
   color: #fff;
   font-style: italic;
@@ -3064,8 +3060,8 @@ article.cmt-blog-classic:hover {
 }
 
 .section-title h4 {
-  color: #fff;
-  font-weight: 400;
+  color: #02888e;
+  font-weight: 600;
   font-size: 22px;
 }
 
@@ -3107,8 +3103,8 @@ article.cmt-blog-classic:hover {
   position: relative;
   margin-top: 160px;
   margin-left: 250px;
-  width: 600px;
-  height: 600px;
+  width: 515px;
+  height: 500px;
 }
 
 .prod span {
@@ -3175,4 +3171,97 @@ article.cmt-blog-classic:hover {
   background: #00acb4;
   height: 30px;
   width: 100%;
+}
+
+/***************************
+BEGIN BNR STYLES
+***************************/
+
+.bnr {
+  display: relative;
+}
+
+.bnr .page-title-wrapper {
+  position: relative;
+}
+.bnr .page-title-wrapper h1.page-title {
+  position: absolute;
+  left: 0px;
+  top: -210px;
+  color: #fff;
+  font-size: 70px;
+}
+
+/***************************
+BEGIN PAGE STYLES
+***************************/
+div.site-main {
+  background: linear-gradient(
+    90deg,
+    rgba(234, 227, 225, 0.03125) 0%,
+    rgba(234, 227, 225, 1) 100%
+  );
+}
+.content-section {
+  /* background-color: #00acb4; */
+  padding-top: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+  background: url("../img/contents/page-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-section img {
+  width: 100%;
+  max-height: 1350px;
+}
+
+#part2-1 .content-section img {
+  width: 70%;
+}
+
+#part3 .content-section img {
+  width: 70%;
+}
+
+/* PREV NEXT SECTION STYLES */
+.next-prev-section {
+  background: #00acb4;
+  padding: 30px 0px;
+  /* margin-bottom: -60px; */
+}
+
+.next-prev-section .prev {
+  float: left;
+}
+.next-prev-section .next {
+  float: right;
+}
+.next-prev-section a {
+  font-size: 25pt;
+  color: white;
+}
+
+/* DESCRIPTION SECTION STYLES */
+
+.description-section {
+  text-align: right;
+  max-height: 300px;
+}
+.description-section ul li {
+  list-style: none;
+}
+
+.description-section .sub-title {
+  color: #00acb4;
+}
+
+.description-section .sub-features {
+  line-height: 2.3;
+  font-size: large;
+}
+
+.description-section .sub-features .sub-features-title {
+  color: #984b14;
 }
