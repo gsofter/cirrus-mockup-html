@@ -3394,3 +3394,7 @@ ul.sub-features li {
   font-size: large;
   padding-left: 20px;
 }
+[lang="en"],
+[lang="jp"] {
+  display: none;
+}
