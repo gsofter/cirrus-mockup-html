@@ -3177,45 +3177,95 @@ article.cmt-blog-classic:hover {
   transition: 0.7s;
 }
 
-.prod #part1 a {
-  background-image: url(../img/buttons/ic1.svg), url(../img/buttons/ic1_a.svg);
+.prod #part1 a[lang="en"] {
+  background-image: url(../img/buttons/ic1.svg), url(../img/buttons/ic1_a.svg),
+    url(../img/buttons/jic1_a.svg);
 }
-.prod #part1 a:hover {
+.prod #part1 a[lang="jp"] {
+  background-image: url(../img/buttons/ic1.svg), url(../img/buttons/jic1_a.svg);
+}
+
+.prod #part1 a[lang="en"]:hover {
   background-image: url(../img/buttons/ic1_a.svg);
 }
-.prod #part2 a {
+.prod #part1 a[lang="jp"]:hover {
+  background-image: url(../img/buttons/jic1_a.svg);
+}
+
+.prod #part2 a[lang="en"] {
   background-image: url(../img/buttons/ic2.svg), url(../img/buttons/ic2_a.svg);
 }
-.prod #part2 a:hover {
+.prod #part2 a[lang="jp"] {
+  background-image: url(../img/buttons/ic2.svg), url(../img/buttons/jic2_a.svg);
+}
+
+.prod #part2 a[lang="en"]:hover {
   background-image: url(../img/buttons/ic2_a.svg);
 }
+.prod #part2 a[lang="jp"]:hover {
+  background-image: url(../img/buttons/jic2_a.svg);
+}
 
-.prod #part3 a {
+.prod #part3 a[lang="en"] {
   background-image: url(../img/buttons/ic3.svg), url(../img/buttons/ic3_a.svg);
 }
-.prod #part3 a:hover {
-  background-image: url(../img/buttons/ic3_a.svg);
-}
-.prod #part4 a {
-  background-image: url(../img/buttons/ic4.svg), url(../img/buttons/ic4_a.svg);
-}
-.prod #part4 a:hover {
-  background-image: url(../img/buttons/ic4_a.svg);
-}
-.prod #part5 a {
-  background-image: url(../img/buttons/ic5.svg), url(../img/buttons/ic5_a.svg);
-}
-.prod #part5 a:hover {
-  background-image: url(../img/buttons/ic5_a.svg);
-}
-.prod #part6 a {
-  background-image: url(../img/buttons/ic6.svg), url(../img/buttons/ic6_a.svg);
-}
-.prod #part6 a:hover {
-  background-image: url(../img/buttons/ic6_a.svg);
+.prod #part3 a[lang="jp"] {
+  background-image: url(../img/buttons/ic3.svg), url(../img/buttons/jic3_a.svg);
 }
 
-.prod #main a {
+.prod #part3 a[lang="en"]:hover {
+  background-image: url(../img/buttons/ic3_a.svg);
+}
+.prod #part3 a[lang="jp"]:hover {
+  background-image: url(../img/buttons/jic3_a.svg);
+}
+
+.prod #part4 a[lang="en"] {
+  background-image: url(../img/buttons/ic4.svg), url(../img/buttons/ic4_a.svg);
+}
+.prod #part4 a[lang="jp"] {
+  background-image: url(../img/buttons/ic4.svg), url(../img/buttons/jic4_a.svg);
+}
+
+.prod #part4 a[lang="en"]:hover {
+  background-image: url(../img/buttons/ic4_a.svg);
+}
+.prod #part4 a[lang="jp"]:hover {
+  background-image: url(../img/buttons/jic4_a.svg);
+}
+
+.prod #part5 a[lang="en"] {
+  background-image: url(../img/buttons/ic5.svg), url(../img/buttons/ic5_a.svg);
+}
+.prod #part5 a[lang="jp"] {
+  background-image: url(../img/buttons/ic5.svg), url(../img/buttons/jic5_a.svg);
+}
+
+.prod #part5 a[lang="en"]:hover {
+  background-image: url(../img/buttons/ic5_a.svg);
+}
+.prod #part5 a[lang="jp"]:hover {
+  background-image: url(../img/buttons/jic5_a.svg);
+}
+
+.prod #part6 a[lang="en"] {
+  background-image: url(../img/buttons/ic6.svg), url(../img/buttons/ic6_a.svg);
+}
+.prod #part6 a[lang="jp"] {
+  background-image: url(../img/buttons/ic6.svg), url(../img/buttons/jic6_a.svg);
+}
+
+.prod #part6 a[lang="en"]:hover {
+  background-image: url(../img/buttons/ic6_a.svg);
+}
+.prod #part6 a[lang="jp"]:hover {
+  background-image: url(../img/buttons/jic6_a.svg);
+}
+
+.prod #main a[lang="en"] {
+  background-image: url(../img/buttons/main.png);
+}
+.prod #main a[lang="jp"] {
   background-image: url(../img/buttons/main.png);
 }
 /* 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -40,21 +40,18 @@
         <div class="top_bar cmt-bgcolor-darkgrey cmt-textcolor-white clearfix">
           <div class="container">
             <div class="row">
-              <div class="col-lg-4 d-flex flex-row align-items-center">
-                FAST DEPLOY ISOLATION MONITORING
-              </div>
-              <div class="col-lg-8 d-flex flex-row align-items-center">
+              <div class="col-lg-4 d-flex flex-row align-items-center"></div>
+              <div class="col-lg-6 d-flex flex-row align-items-center">
                 <div class="top_bar_contact_item ml-auto">
                   <div class="top_bar_icon"><i class="fa fa-envelope"></i></div>
-                  <a href="contactus.html"
-                    >info@CirrusMedical.net</a
-                  >
+                  <a href="contactus.html">info@CirrusMedical.net</a>
                 </div>
                 <div class="top_bar_contact_item">
                   <div class="top_bar_icon"><i class="fa fa-phone"></i></div>
                   +81 (0)3-6403-9889
                 </div>
               </div>
+              <div class="col-lg-2 d-flex flex-row align-items-center"></div>
             </div>
           </div>
         </div>
@@ -86,13 +83,39 @@
                 <nav class="main-menu menu-mobile" id="menu">
                   <ul class="menu">
                     <li class="mega-menu-item active">
-                      <a href="index.html" class="mega-menu-link">Home</a>
+                      <a lang="en" href="index.html" class="mega-menu-link">
+                        Home
+                      </a>
+                      <a lang="jp" href="index.html" class="mega-menu-link">
+                        トップ
+                      </a>
                     </li>
-                    <li class="mega-menu-item"><a href="aboutus.html">About Us</a></li>
-                    <li class="mega-menu-item"><a href="services.html">Services</a></li>
-                    <li class="mega-menu-item"><a href="company.html">Company</a></li>
-                    <li class="mega-menu-item"><a href="faq.html">FAQ</a></li>
-                    <li class="mega-menu-item"><a href="contactus.html">Contact Us</a></li>
+                    <li class="mega-menu-item">
+                      <a lang="en" href="aboutus.html">About Us</a>
+                      <a lang="jp" href="aboutus.html">シラスについて</a>
+                    </li>
+                    <li class="mega-menu-item">
+                      <a lang="en" href="services.html">Services</a>
+                      <a lang="jp" href="services.html">サービス </a>
+                    </li>
+                    <li class="mega-menu-item">
+                      <a lang="en" href="company.html">Company</a>
+                      <a lang="jp" href="company.html">会社概要</a>
+                    </li>
+                    <li class="mega-menu-item">
+                      <a lang="en" href="faq.html">FAQ</a>
+                      <a lang="jp" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="mega-menu-item">
+                      <a lang="en" href="contactus.html">Contact Us</a>
+                      <a lang="jp" href="contactus.html">お問合せ</a>
+                    </li>
+                    <li>
+                      <select id="lang-switch">
+                        <option value="en">English</option>
+                        <option value="jp">日本語</option>
+                      </select>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -106,7 +129,8 @@
 
       <div class="bnr">
         <div class="container page-title-wrapper">
-          <h1 class="page-title">PROBLEM</h1>
+          <h1 lang="en" class="page-title">PROBLEM</h1>
+          <h1 lang="jp" class="page-title">課題</h1>
         </div>
       </div>
 
@@ -120,10 +144,14 @@
               <div class="col-lg-7 col-md-7 col-xs-12">
                 <!-- section title -->
                 <div class="mrtb-30 section-title">
-                  <h3 class="sub-title">Lack Of Detection &amp; Isolation Wards</h3>
-                  <h3 class="sub-description">
+                  <h3 lang="en" class="sub-title">Lack Of Detection &amp; Isolation Wards</h3>
+                  <h3 lang="jp" class="sub-title">隔離病棟が不足していませんか？</h3>
+                  <h3 lang="en" class="sub-description">
                     During A Contagious Epidemic, A Regular
                     Medical Facility Will Not Know If The Infection Is Contained
+                  </h3>
+                  <h3 lang="jp" class="sub-description">
+                    感染症が感染拡大し続けても、医療施設内に、 ウィルス拡散が不明のままです。 
                   </h3>
                 </div>
                 <!-- section title end -->
@@ -139,15 +167,23 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-7 col-md-7 col-sm-12">
-                <img src="img/contents/p1.svg">
+                <img lang="en" src="img/contents/p1.svg">
+                <img lang="jp" src="img/contents/jp1.svg">
               </div>
               <div class="col-lg-5 col-md-5 col-sm-12">
-                <ul class="sub-features">
+                <ul lang="en" class="sub-features">
                   <li>Compromised Working Environment</li>
                   <li>Complex, Expensive & Time Consuming </li>
                   <li>To Convert Spaces For Isolation Purposes</li>
                   <li> Overworked And Understaffed In Medical Sector </li>
                   <li> Time Spent On Manual Monitoring</li>
+                </ul>
+                <ul lang="jp" class="sub-features">
+                  <li>医療スタッフにも危険な環境</li>
+                  <li>陰圧ゾーンを構築する際には、専門知識、コスト、時間が必要 </li>
+                  <li>医療現場における過労と人員不足</li>
+                  <li> 労力を必要とする人力による監視 </li>
+                  <li> 陰圧室の導入においてコストがかかる</li>
                 </ul>
               </div>
             </div>
@@ -160,10 +196,12 @@
           <div class="row">
             <div class="container">
               <div class="prev">
-                <a href="index.html"> <i class="fa fa-arrow-left"></i> </span> To Main </a>
+                <a lang="en" href="index.html"> <i class="fa fa-arrow-left"></i> </span> To Main </a>
+                <a lang="jp" href="index.html"> <i class="fa fa-arrow-left"></i> </span> メイン </a>
               </div>
               <div class="next">
-                <a href="part2-1.html">  To Solution <i class="fa fa-arrow-right"></i></a>
+                <a lang="en" href="part2-1.html">  To Solution <i class="fa fa-arrow-right"></i></a>
+                <a lang="jp" href="part2-1.html">  簡易低圧 <i class="fa fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -188,19 +226,42 @@
                     />
                   </div>
                   <div class="textwidget widget-text">
-                    <p>Rethinking Technologies To Make Health Care Safer.</p>
+                    <p lang="en">
+                      Rethinking Technologies To Make Health Care Safer.
+                    </p>
+                    <p lang="jp">
+                      テクノロジーの力で、医療環境をもっと安全・安心に
+                    </p>
                   </div>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 widget-area">
                 <div class="widget widget_nav_menu clearfix">
                   <ul id="menu-footer-quick-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="company.html">Company</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li>
+                      <a lang="en" href="index.html">Home</a>
+                      <a lang="jp" href="index.html">トップ </a>
+                    </li>
+                    <li>
+                      <a lang="en" href="aboutus.html">About us </a>
+                      <a lang="jp" href="aboutus.html">シラスについて </a>
+                    </li>
+                    <li>
+                      <a lang="en" href="services.html">Services</a>
+                      <a lang="jp" href="services.html">サービス</a>
+                    </li>
+                    <li>
+                      <a lang="en" href="company.html">Company </a>
+                      <a lang="jp" href="company.html">会社概要 </a>
+                    </li>
+                    <li>
+                      <a lang="en" href="faq.html">FAQ</a>
+                      <a lang="jp" href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                      <a lang="en" href="contactus.html">Contact Us</a>
+                      <a lang="jp" href="contactus.html">お問合せ</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -238,6 +299,7 @@
     <script src="js/numinate.min.js"></script>
     <script src="js/imagesloaded.min.js"></script>
     <script src="js/jquery-isotope.js"></script>
+    <script src="js/jquery-cookie.js"></script>
     <script src="js/main.js"></script>
 
   </body>
