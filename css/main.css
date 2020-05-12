@@ -3129,50 +3129,43 @@ article.cmt-blog-classic:hover {
 }
 
 .prod #part1 {
-  position: absolute;
   top: 0px;
   left: 151px;
 }
 
 .prod #part2 {
-  position: absolute;
   top: 83px;
   left: 298px;
 }
 
 .prod #part3 {
-  position: absolute;
   top: 250px;
   left: 298px;
 }
 
 .prod #part4 {
-  position: absolute;
   top: 334px;
   left: 151px;
 }
 
 .prod #part5 {
-  position: absolute;
   top: 250px;
   left: 0px;
 }
 
 .prod #part6 {
-  position: absolute;
   top: 83px;
   left: 0px;
 }
 
-.prod #main {
-  position: absolute;
+.prod #product {
   top: 167px;
   left: 147px;
 }
 
 .prod a {
   display: block;
-  width: 190px;
+  width: 192px;
   height: 165px;
   transition: 0.7s;
 }
@@ -3262,11 +3255,11 @@ article.cmt-blog-classic:hover {
   background-image: url(../img/buttons/jic6_a.svg);
 }
 
-.prod #main a[lang="en"] {
-  background-image: url(../img/buttons/main.png);
+.prod #product a[lang="en"] {
+  background-image: url(../img/buttons/product.png);
 }
-.prod #main a[lang="jp"] {
-  background-image: url(../img/buttons/main.png);
+.prod #product a[lang="jp"] {
+  background-image: url(../img/buttons/jproduct.png);
 }
 /* 
 .prod a div.context {
@@ -3353,7 +3346,7 @@ div.site-main {
   float: right;
 }
 .next-prev-section a {
-  font-size: 25pt;
+  font-size: 15pt;
   color: white;
 }
 
@@ -3371,6 +3364,11 @@ div.site-main {
 .sub-features {
   line-height: 2.3;
   font-size: large;
+  text-align: left;
+}
+
+.sub-features-title {
+  color: #984b14;
   text-align: left;
 }
 
@@ -3397,4 +3395,87 @@ ul.sub-features li {
 [lang="en"],
 [lang="jp"] {
   display: none;
+}
+
+.pull-center {
+  text-align: center;
+}
+#contact-form {
+  padding: 0 70px;
+}
+
+#contact-form input {
+  border-radius: 30px;
+  padding: 15px 20px;
+  height: 45px;
+  margin-bottom: 18px;
+}
+
+#contact-form textarea {
+  border-radius: 30px;
+  padding: 15px 20px;
+}
+
+#contact-form [type="submit"] {
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid #01eef9;
+  border-radius: 30px;
+  color: #01eef9;
+}
+
+.member-card {
+  text-align: left;
+  background: #099292;
+  color: white;
+  padding: 30px 30px;
+  min-height: 412px;
+  margin-bottom: 20px;
+}
+
+.member-card .member-name {
+  color: white;
+}
+
+.member-card .member-role {
+  border-bottom: 2px solid yellow;
+}
+
+/* MOBILE VERSION STYLES */
+@media only screen and (max-width: 550px) {
+  .bnr {
+    min-height: 100px;
+    padding: 30px 0;
+  }
+  .description-section h3 {
+    font-size: 24px;
+  }
+  .next-prev-section {
+    padding: 10px 10px;
+  }
+
+  .new-pro {
+    padding-bottom: 50px;
+  }
+  .prod {
+    padding-top: 30px;
+    width: initial;
+    height: initial;
+    margin-top: initial;
+    text-align: center;
+  }
+  .prod span {
+    position: initial;
+  }
+
+  .prod span a {
+    margin: 10px auto;
+  }
+
+  #contact-form {
+    padding: 0 20px;
+  }
+
+  .member-card {
+    min-height: initial;
+  }
 }
