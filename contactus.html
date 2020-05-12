@@ -134,7 +134,8 @@
 
       <div class="bnr">
         <div class="container page-title-wrapper">
-          <h1 class="page-title">Contact Us</h1>
+          <h1 lang="en" class="page-title">Contact Us</h1>
+          <h1 lang="jp" class="page-title">お問合せ</h1>
         </div>
       </div>
 
@@ -147,21 +148,36 @@
               <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="qa mt-30" style="text-align: center;">
                   <h2 lang="en">Get In Touch With Us.</h2>
+                  <h2 lang="jp">お問い合わせ</h2>
                   <p lang="en">We would love to hear from you!</p>
-                  <p></p>
+                  <p lang="jp"></p>
                 </div>
                 <form id="contact-form">
                   <div class="form-group row">
                     <div class="col-sm-6">
                       <input
-                        placeholder="Your Name"
+                        lang="en"
+                        placeholder="Name"
+                        class="form-control"
+                        name="name"
+                      />
+                      <input
+                        lang="jp"
+                        placeholder="お名前"
                         class="form-control"
                         name="name"
                       />
                     </div>
                     <div class="col-sm-6">
                       <input
-                        placeholder="Your Email"
+                        lang="en"
+                        placeholder="Email Address"
+                        class="form-control"
+                        name="email"
+                      />
+                      <input
+                        lang="jp"
+                        placeholder="メールアドレス"
                         class="form-control"
                         name="email"
                       />
@@ -170,6 +186,13 @@
                   <div class="form-group row">
                     <div class="col-sm-6">
                       <input
+                        lang="en"
+                        placeholder="Phone Number"
+                        class="form-control"
+                        name="phone"
+                      />
+                      <input
+                        lang="jp"
                         placeholder="Phone Number"
                         class="form-control"
                         name="phone"
@@ -177,7 +200,14 @@
                     </div>
                     <div class="col-sm-6">
                       <input
+                        lang="en"
                         placeholder="Subject"
+                        class="form-control"
+                        name="subject"
+                      />
+                      <input
+                        lang="jp"
+                        placeholder="お問合せの件名"
                         class="form-control"
                         name="subject"
                       />
@@ -186,7 +216,13 @@
                   <div class="form-group row">
                     <div class="col-sm-12">
                       <textarea
+                        lang="en"
                         placeholder="message"
+                        class="form-control"
+                      ></textarea>
+                      <textarea
+                        lang="jp"
+                        placeholder="お問合せの内容"
                         class="form-control"
                       ></textarea>
                     </div>
