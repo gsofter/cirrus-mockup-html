@@ -3292,15 +3292,19 @@ BEGIN BNR STYLES
 ***************************/
 
 .bnr {
-  min-height: 300px;
+  min-height: 230px;
   background: url("../img/bnr.jpg");
-  padding: 80px 0;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
 }
 
 .bnr .page-title-wrapper h1.page-title {
   color: #fff;
-  font-size: 55px;
+  font-size: 48px;
 }
 
 /***************************
@@ -3400,6 +3404,10 @@ ul.sub-features li {
 .pull-center {
   text-align: center;
 }
+
+/*****************************
+/* CONTACT US STYLES
+/*****************************/
 #contact-form {
   padding: 0 70px;
 }
@@ -3438,6 +3446,22 @@ ul.sub-features li {
 
 .member-card .member-role {
   border-bottom: 2px solid yellow;
+}
+
+.section-title .title {
+  color: #6c757d;
+}
+
+.second-footer .widget-area .widget {
+  margin: 30px 0 20px;
+}
+
+.second-footer .widget-area .widget.widget_nav_menu {
+  margin: 10px 0;
+}
+
+.footer-logo {
+  margin-bottom: 10px;
 }
 
 /* MOBILE VERSION STYLES */
