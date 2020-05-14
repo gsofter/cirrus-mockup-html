@@ -199,7 +199,7 @@ h6 {
   font-family: "DM Sans", sans-serif;
   margin-bottom: 15px;
   font-weight: 700;
-  color: #46166b;
+  color: black;
 }
 h1 {
   font-size: 60px;
@@ -3464,6 +3464,10 @@ COMPANY page styles
 
 .comapny-container p {
   font-size: 20px;
+}
+
+.service-container p {
+  font-weight: 800;
 }
 
 .section-title .title {
