@@ -39,15 +39,15 @@
   /* 03. Fixed-header
 /*------------------------------------------------------------------------------*/
 
-  $(window).scroll(function () {
-    if (matchMedia("only screen and (min-width: 1200px)").matches) {
-      if ($(window).scrollTop() >= 50) {
-        $(".cmt-stickable-header").addClass("fixed-header");
-      } else {
-        $(".cmt-stickable-header").removeClass("fixed-header");
-      }
-    }
-  });
+  // $(window).scroll(function () {
+  //   if (matchMedia("only screen and (min-width: 1200px)").matches) {
+  //     if ($(window).scrollTop() >= 50) {
+  //       $(".cmt-stickable-header").addClass("fixed-header");
+  //     } else {
+  //       $(".cmt-stickable-header").removeClass("fixed-header");
+  //     }
+  //   }
+  // });
 
   /*------------------------------------------------------------------------------*/
   /* 04. Menu

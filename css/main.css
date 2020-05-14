@@ -3382,7 +3382,7 @@ div.site-main {
 
 ul.sub-features li {
   list-style: circle;
-  list-style-position: inside;
+  /* list-style-position: inside; */
 }
 
 /* faq styles */
@@ -3431,6 +3431,13 @@ ul.sub-features li {
   color: #01eef9;
 }
 
+.content-section h2.content-title {
+  font-size: 35px;
+}
+
+/*********************************
+ABOUT US page styles
+**********************************/
 .member-card {
   text-align: left;
   background: #099292;
@@ -3448,8 +3455,20 @@ ul.sub-features li {
   border-bottom: 2px solid yellow;
 }
 
+/*********************************
+COMPANY page styles
+**********************************/
+.company-container {
+  padding: 0 20px;
+}
+
+.comapny-container p {
+  font-size: 20px;
+}
+
 .section-title .title {
   color: #6c757d;
+  font-style: initial;
 }
 
 .second-footer .widget-area .widget {
@@ -3501,5 +3520,9 @@ ul.sub-features li {
 
   .member-card {
     min-height: initial;
+  }
+
+  .company-container {
+    padding: 0 30px;
   }
 }
