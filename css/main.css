@@ -3433,6 +3433,11 @@ ul.sub-features li {
 
 .content-section h2.content-title {
   font-size: 35px;
+  text-align: center;
+}
+
+.content-section .content-main {
+  text-align: left;
 }
 
 /*********************************
@@ -3460,10 +3465,12 @@ COMPANY page styles
 **********************************/
 .company-container {
   padding: 0 20px;
+  text-align: left;
 }
 
 .comapny-container p {
   font-size: 20px;
+  text-align: left;
 }
 
 .service-container p {
