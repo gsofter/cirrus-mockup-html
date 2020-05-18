@@ -3328,7 +3328,7 @@ div.site-main {
 }
 
 .content-section img {
-  width: 70%;
+  width: 90%;
   max-height: 1350px;
 }
 
@@ -3377,6 +3377,7 @@ div.site-main {
 }
 
 .sub-features .sub-features-title {
+  margin-left: -30px;
   color: #984b14;
 }
 
@@ -3492,6 +3493,15 @@ COMPANY page styles
 
 .footer-logo {
   margin-bottom: 10px;
+}
+
+.li-style-none {
+  list-style: none !important;
+}
+
+.contact-sub-title {
+  margin-left: -50px;
+  color: #43220a;
 }
 
 /* MOBILE VERSION STYLES */
