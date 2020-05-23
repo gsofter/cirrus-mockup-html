@@ -397,8 +397,8 @@ $(document).ready(function () {
     }
   } else {
     $("#lang-switch").val("en");
-    $('[lang="en"]').show();
-    $('[lang="jp"]').hide();
+    $('[lang="jp"]').show();
+    $('[lang="en"]').hide();
   }
   $("#lang-switch").change(function () {
     $('[lang="jp"]').toggle();
