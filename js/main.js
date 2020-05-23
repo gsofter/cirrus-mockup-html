@@ -396,7 +396,7 @@ $(document).ready(function () {
       $("#lang-switch").val("jp");
     }
   } else {
-    $("#lang-switch").val("en");
+    $("#lang-switch").val("jp");
     $('[lang="jp"]').show();
     $('[lang="en"]').hide();
   }
