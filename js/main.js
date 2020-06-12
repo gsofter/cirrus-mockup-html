@@ -387,6 +387,7 @@ $(document).ready(function () {
   $('[lang="jp"]').hide();
   if (!!$.cookie("lang")) {
     if ($.cookie("lang") == "en") {
+      document.title = "Cirrus Consulting";
       $('[lang="en"]').show();
       $('[lang="jp"]').hide();
       $("#lang-switch").val("en");
@@ -396,6 +397,7 @@ $(document).ready(function () {
       $("#lang-switch").val("jp");
     }
   } else {
+    document.title = "シーラス・コンサルティング";
     $("#lang-switch").val("jp");
     $('[lang="jp"]').show();
     $('[lang="en"]').hide();
@@ -405,8 +407,10 @@ $(document).ready(function () {
     $('[lang="en"]').toggle();
     var lang = $(this).val();
     if (lang === "en") {
+      document.title = "Cirrus Consulting";
       $.cookie("lang", "en", { expires: 7 });
     } else {
+      document.title = "シーラス・コンサルティング";
       $.cookie("lang", "jp", { expires: 7 });
     }
   });

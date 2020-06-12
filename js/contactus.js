@@ -21,7 +21,7 @@ function sendContactUs(e, lang) {
     contactUsEmail = $('#contact-form input[name="email"][lang="jp"]').val();
     contactUsPhone = $('#contact-form input[name="phone"][lang="jp"]').val();
     contactUsSubject = $(
-      '#contact-form input[name="subject"][lang="jp"]'
+      '#contact-form input[name="cir-subject"][lang="jp"]'
     ).val();
     contactUsMessage = $('#contact-form textarea[lang="jp"]').val();
     emptyMail = "メールアドレスを入れてください。";
@@ -36,7 +36,7 @@ function sendContactUs(e, lang) {
     contactUsEmail = $('#contact-form input[name="email"][lang="en"]').val();
     contactUsPhone = $('#contact-form input[name="phone"][lang="en"]').val();
     contactUsSubject = $(
-      '#contact-form input[name="subject"][lang="en"]'
+      '#contact-form input[name="cir-subject"][lang="en"]'
     ).val();
     contactUsMessage = $('#contact-form textarea[lang="en"]').val();
     emptyMail = "Please enter your email.";
