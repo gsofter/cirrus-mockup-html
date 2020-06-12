@@ -3504,6 +3504,42 @@ COMPANY page styles
   color: #43220a;
 }
 
+/*********************************
+NEWS page styles
+**********************************/
+.year-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.year-list li {
+  padding: 10px 20px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.year-list li a {
+  cursor: pointer;
+  font-size: x-large;
+}
+.news-list .news-item {
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.news-list .news-item .news-item-date {
+  width: 14%;
+  float: left;
+  text-align: left;
+}
+
+.news-list .news-item .news-item-title {
+  width: 86%;
+  text-align: left;
+}
+
 /* MOBILE VERSION STYLES */
 @media only screen and (max-width: 550px) {
   .bnr {
