@@ -3527,17 +3527,18 @@ NEWS page styles
 .news-list .news-item {
   padding: 15px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 14pt;
 }
 
 .news-list .news-item .news-item-date {
   width: 14%;
-  float: left;
   text-align: left;
 }
 
 .news-list .news-item .news-item-title {
   width: 86%;
   text-align: left;
+  padding-left: 30px;
 }
 
 /* MOBILE VERSION STYLES */
