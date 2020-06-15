@@ -3550,12 +3550,18 @@ ARTICLE page styles
 
 .article-content {
   text-align: left;
-  font-size: 25px;
-  line-height: 1.3;
+  font-size: 21px;
+  line-height: 1.5;
 }
 
 .article-info {
+  font-size: 18px;
+  text-align: left;
+}
+
+.page-nav {
   text-align: right;
+  font-size: 25px;
 }
 
 /* MOBILE VERSION STYLES */
