@@ -3541,6 +3541,23 @@ NEWS page styles
   padding-left: 30px;
 }
 
+/*********************************
+ARTICLE page styles
+**********************************/
+.article-title {
+  padding: 40px 20px 10px 20px;
+}
+
+.article-content {
+  text-align: left;
+  font-size: 25px;
+  line-height: 1.3;
+}
+
+.article-info {
+  text-align: right;
+}
+
 /* MOBILE VERSION STYLES */
 @media only screen and (max-width: 550px) {
   .bnr {
