@@ -3530,6 +3530,9 @@ NEWS page styles
   font-size: 14pt;
 }
 
+.news-list .news-item a {
+  display: flex;
+}
 .news-list .news-item .news-item-date {
   width: 14%;
   text-align: left;
